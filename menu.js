@@ -6,7 +6,7 @@
     deals with food objects, arrays of objects
     and filtering those arrays. 
 */
-
+let extraCreditDocument = 'https://docs.google.com/document/d/1zVMN_aRbvpaxr9nXavFoWPoQTYxDXSU4VcIBLEe1f5c/edit#'
 
 //////////////////PROBLEM 1////////////////////
 /*  

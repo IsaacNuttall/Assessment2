@@ -6,7 +6,7 @@
     helps with some functionality on the home 
     page of the restaurant's website.
 */
-
+let extraCreditDocument = 'https://docs.google.com/document/d/1zVMN_aRbvpaxr9nXavFoWPoQTYxDXSU4VcIBLEe1f5c/edit#'
 
 //////////////////PROBLEM 1////////////////////
 /* 

@@ -6,7 +6,7 @@
     calculate order totals. You'll also be 
     creating customer objects.  
 */
-
+let extraCreditDocument = 'https://docs.google.com/document/d/1zVMN_aRbvpaxr9nXavFoWPoQTYxDXSU4VcIBLEe1f5c/edit#'
 
 //////////////////PROBLEM 1////////////////////
 /*  

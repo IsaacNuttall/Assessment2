@@ -5,7 +5,7 @@
     In this file, you'll be writing a class
     to make tickets from order information.
 */
-
+let extraCreditDocument = 'https://docs.google.com/document/d/1zVMN_aRbvpaxr9nXavFoWPoQTYxDXSU4VcIBLEe1f5c/edit#'
 
 //////////////////PROBLEM 1////////////////////
 /*  

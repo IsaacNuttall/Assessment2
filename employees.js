@@ -5,6 +5,7 @@
     In this file, you'll be writing classes to 
     store information about restaurant employees.
 */
+let extraCreditDocument = 'https://docs.google.com/document/d/1zVMN_aRbvpaxr9nXavFoWPoQTYxDXSU4VcIBLEe1f5c/edit#'
 
 //////////////////PROBLEM 1////////////////////
 /*  
