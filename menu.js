@@ -60,7 +60,7 @@ console.log(pizza.popularity)
 */
 
 //CODE HERE
-
+console.log(pizza.tags[1])
 
 /*
     Third, destructure the price off of the
@@ -70,7 +70,8 @@ console.log(pizza.popularity)
 */
 
 //CODE HERE
-
+const{price: newPrice} = pizza
+console.log(newPrice)
 
 /*
     Fourth, and last, destructure the category
@@ -80,7 +81,8 @@ console.log(pizza.popularity)
 */
 
 //CODE HERE
-
+const{category: newCategory} = pizza
+console.log(newCategory)
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -95,8 +97,12 @@ console.log(pizza.popularity)
 */
 
 //CODE HERE
-
-
+const foodArr = [{'name': 'Spinach', 'price': 2, 'category': "vegetable", 'popularity': 10, 'rating': 2, 'tags': ['low-calorie','heart-healthy']},
+{'name': 'Strawberry', 'price': 4, 'category': "fruit", 'popularity': 70, 'rating': 4, 'tags': ['low-calorie','sweet']}, 
+{'name': 'Bread', 'price': 6, 'category': "carbohydrate", 'popularity': 60, 'rating': 3, 'tags': ['plant-based','great for sandwiches']},
+{'name': 'Yoghurt', 'price': 5, 'category': "dairy", 'popularity': 40, 'rating': 4, 'tags': ['sugary','low-fat','fruit-flavored']},
+{'name': 'Donut', 'price': 3, 'category': "dessert", 'popularity': 90, 'rating': 5, 'tags': ['sugary','heart-unhealthy', 'sweet']}
+]
 
 //////////////////PROBLEM 4////////////////////
 /* 
@@ -112,9 +118,9 @@ console.log(pizza.popularity)
 
 //CODE HERE
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
+const filteredFood = foodArr.filter((food) => food.tags.includes('sugary'))
 
-
+console.log(filteredFood)
 
 //////////////////PROBLEM 5////////////////////
 /* 
@@ -156,7 +162,23 @@ console.log(pizza.popularity)
 */
 
 //CODE HERE
-
+const filterByProperty = (property, number, type) => {
+    if(property > number){
+        return type = 'above'
+        return console.log('above')
+    } else if (property < number){
+        return type = 'below'
+        return console.log('below')
+    }
+    const expensiveFoods = foodArr.filter((food) => {
+        if(food === 'above'){
+            return food > number
+        } else if (food === 'below'){
+            return food < number
+        }
+    })
+    return foodArr
+}
 
 /*
     Invoke the `filterByProperty` function passing
@@ -166,3 +188,4 @@ console.log(pizza.popularity)
 */
 
 //CODE HERE
+console.log(filterByProperty(6, 3, 'above'))
